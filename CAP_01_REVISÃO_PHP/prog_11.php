@@ -14,8 +14,7 @@
         $valor3 = 30;
 
         $soma += $valor1;
-        $soma = 33
-
+        $soma = 33;
     ?>
 </body>
 </html>
