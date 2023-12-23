@@ -7,7 +7,6 @@
  */
 
 
-
 //FUNÇÃO DE VALIDAÇÃO DE EMAIL
 function email_clear_validate(string $email_in): string
 {
