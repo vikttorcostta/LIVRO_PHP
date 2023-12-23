@@ -10,7 +10,7 @@
 
         $vetor = [1,2,3,4,5,6,7,8,9,10];
         foreach($vetor as $v){
-            print"O valor atual é $v <br> ";
+            print"<h3>O valor atual é $v </h3><br> ";
         }
 
         $vetor = ["um" => 1, "dois" => 2, "tres" => 3, "quatro" =>4, "cinco" =>5];

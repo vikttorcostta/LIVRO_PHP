@@ -10,7 +10,7 @@ $conexao = new mysqli($servidor, $usuario, $senha, $bd);
 $resultado = $conexao->query("SELECT titulo, autor, paginas, preco FROM livros");
 $numeroLinhas = $resultado->num_rows;
 
-for ($contador = 0; $contador < $numeroLinhas;$contador++){
+for ($contador = 0; $contador < $numeroLinhas; $contador++){
 
     $dados = $resultado->fetch_row();
     $titulo = $dados[0];
