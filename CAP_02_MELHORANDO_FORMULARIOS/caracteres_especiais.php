@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tratamento de formularios</title>
 </head>
 <body>
     <?php
@@ -16,7 +16,7 @@
 
         echo '<hr>';
 
-        $email = 'paulo@gmail.com';
+        $email = 'paulo@gmail.com.br';
         $telefone = '71992312285';
 
         if(filter_var($email, FILTER_VALIDATE_EMAIL) && filter_var($telefone, FILTER_VALIDATE_INT)){
@@ -24,6 +24,7 @@
         }else{
             echo 'Dados invalidos';
         }
+        str_replace(" ", "", $email);
     
     ?>
     
