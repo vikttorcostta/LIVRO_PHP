@@ -1,11 +1,9 @@
 <?php
-
 /***
  * PAULO VICTOR COSTA DE MELO
  * 23/12/2023
  * 
  */
-
 
 //FUNÇÃO DE VALIDAÇÃO DE EMAIL
 function email_clear_validate(string $email_in): string
