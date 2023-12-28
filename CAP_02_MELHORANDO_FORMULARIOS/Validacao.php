@@ -152,7 +152,7 @@ class Validacao
         }elseif(strlen($limpaSenha) < 8 || strlen($limpaSenha) > 15){
             return false;
         }else{
-            return $limpaSenha;
+            return true;
         }
     }
 
